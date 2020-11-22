@@ -1,0 +1,37 @@
+.txt, .txt2 {
+  font-size: 40px;
+  font-family: sans-serif;
+  color: violet; }
+
+.txt2 {
+  color: #000;
+  letter-spacing: -5px; }
+
+.box {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: salmon;
+  width: 250px;
+  height: 250px; }
+
+.item1 {
+  font-size: 40px; }
+
+.item2 {
+  font-size: 50px; }
+
+.item3 {
+  font-size: 60px; }
+
+.item4 {
+  font-size: 70px; }
+
+.item5 {
+  font-size: 80px; }
+
+.item6 {
+  font-size: 90px; }
+
+/*# sourceMappingURL=style.css.map */

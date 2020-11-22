@@ -1,0 +1,31 @@
+
+.txt {
+    font-size: 40px;
+    font-family: sans-serif;
+    @include ecriture(color,violet);      
+}
+
+.txt2 {
+    @extend .txt;
+    color: #000;
+    letter-spacing: -5px;
+}
+
+
+.box {
+    @include position;
+    background: salmon;
+    width: 250px;
+    height: 250px;
+}
+
+@for $i from 1 through 6 {
+
+    @if $i > 1 {
+        @warn "Limite dépassée";
+    }
+
+    .item#{$i}{
+        font-size: 30px + $i * 10;
+    }
+}
